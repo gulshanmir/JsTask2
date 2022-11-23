@@ -1,8 +1,8 @@
 function myFunction(){
-    console.log("Answer the following question")
+    console.log("Answer the following question");
 }
 function myFunction2(){
-    console.log("Yaşınızı daxil edin")
+    console.log("Yaşınızı daxil edin");
 }
 function Qrup(){
     let x=document.getElementById("inp").value;
