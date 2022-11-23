@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+        if (confirm("Answer the following question")==true){
+            Text="Welcome";
+        }else{
+            document.body.style.display="none"
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+    </script>
+
+
+    <button onclick="myFunction2()">The question</button>
+    <p id="demo2"></p>
+    <script>
+        function myFunction2(){
+            let age=prompt("Yaşınızı daxil edin","Age");
+            if(age>=18){
+                Text="Welcome";
+            }else{
+                alert("Goodbye")
+            }
+        }
+
+    </script>
+    <input type="text" id="inp">
+    <button onclick="Qrup()">SHOW</button>
+    <script>
+        function Qrup(){
+    if(x!=null||x!=""){
+        Text="Attention!"
+    }else{
+        alert("Please feel the form")
+    }
+        }
+    </script>
+    <script>
+        function Qrup(){
+            let result=x.trim()
+        }
+    </script>
+    
+
+
+
+
+
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
