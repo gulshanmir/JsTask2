@@ -22,13 +22,14 @@ function Qrup(){
 
     if(a=1){
         document.body.style.backgroundColor="yellow";
-    }
-    else if(a=2){
-        document.body.style.backgroundColor="red";
-    }
-     else if(a=3){
+    }  else if(a=2){
+        document.body.style.backgroundColor="red"; 
+    } else if(a=3){
         document.body.style.backgroundColor="black";
+    }  
     }
+
+    
+     
     
 
-}
